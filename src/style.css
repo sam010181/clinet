@@ -1,0 +1,44 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #92a8d1;
+  }
+  
+  .barItem {
+    float: left;
+  }
+  
+  .barItem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .barItem a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .barRightItem {
+    float: right;
+  }
+
+  #searchRecipe {
+    margin-top: 15px;
+  }
+  
+  #searchRecipe input {
+    font-size: 1.5em;
+  }
+  
+  #searchRecipe button {
+    font-size: 1.5em;
+    margin-left: 5px;
+  }
+  
+  .recipeItem a:visited {
+    color: blue;
+  }
